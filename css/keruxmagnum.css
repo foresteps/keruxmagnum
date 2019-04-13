@@ -1,0 +1,9 @@
+.navbar .navbar-brand {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 0px;
+    padding: 20px 15px;
+    color: #66615B;
+    text-transform: uppercase;
+}
