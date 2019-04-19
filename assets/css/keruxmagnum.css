@@ -110,15 +110,41 @@
         box-shadow: none;
     }
     
+    .btn-kerux-inverse {
+        background-color: #0b1011;
+        border-color: #ffffff;
+        color: #ffffff;
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+    
+    .btn-kerux-inverse:hover {
+        background-color: #ffffff;
+        color: #0b1011;
+        border-color: #ffffff;
+        box-shadow: none;
+    }
+    
     .tunnel {
         padding: 20px;
         border-top: 5px solid #f5b208;
         border-bottom: 5px solid #f5b208;
     }
     
+    .tunnel-inverse {
+        padding: 20px;
+        border-top: 5px solid #ffffff;
+        border-bottom: 5px solid #ffffff;
+    }
+    
     .bold-yellow {
         font-weight: 700;
         color: #f5b208;
+    }
+    
+    .bold-yellow-inverse {
+        font-weight: 700;
+        color: #ffffff;
     }
     
     .icon-danger {
@@ -163,10 +189,27 @@
         font-size: 2.8em;
     }
     
+    .semi-large-quote {
+        font-size: 2em;
+    }
+    
+    .thick-text {
+        font-weight: 500;
+    }
+    
+    .bold-heading {
+        font-size: 1em;
+        font-weight: 700;
+    }
+    
     .service-tunnel {
         font-size: 2rem;
         padding: 20px;
         border-bottom: 5px solid #f5b208;
+    }
+    
+    .bg-yellow {
+        background-color: #f5b208;
     }
     
     .service-separator {
@@ -175,6 +218,10 @@
     
     .gap {
         margin-bottom: 30px;
+    }
+    
+    .more-gap {
+        margin-bottom: 70px;
     }
     
     .footer .copyright {
@@ -186,9 +233,19 @@
         font-size: 1.2em;
     }
     
+    .image-size {
+        height: 150px;
+    }
+    
     @media (min-width: 768px) {
         .card-equalizer {
             min-height: 280px;
+        }
+    }
+    
+    @media (max-width: 991px) {
+        .service-gutter {
+            min-height: 300px;
         }
     }
     
@@ -199,6 +256,9 @@
         .card-equalizer {
             min-height: 220px;
         }
+        .service-gutter {
+            min-height: 450px;
+        }
     }
     
     @media (min-width: 1200px) {
@@ -207,5 +267,8 @@
         }
         .card-equalizer {
             min-height: 180px;
+        }
+        .service-gutter {
+            min-height: 450px;
         }
     }
