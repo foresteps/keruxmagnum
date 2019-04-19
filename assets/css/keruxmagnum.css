@@ -237,6 +237,20 @@
         height: 150px;
     }
     
+    .toggle-button {
+        background: gray;
+        box-shadow: 0px 0px 0px transparent;
+        border: 0px solid transparent;
+        text-shadow: 0px 0px 0px transparent;
+    }
+    
+    .toggle-button:hover {
+        background: gray;
+        box-shadow: 0px 0px 0px transparent;
+        border: 0px solid transparent;
+        text-shadow: 0px 0px 0px transparent;
+    }
+    
     @media (min-width: 768px) {
         .card-equalizer {
             min-height: 280px;

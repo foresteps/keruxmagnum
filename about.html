@@ -49,9 +49,9 @@
                     <li class="nav-item">
                         <a href="team.html" class="nav-link">Team</a>
                     </li>
-                    <div class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contact</a>
-                        <ul class="dropdown-menu dropdown-info" aria-labelledby="dropdownMenuButton">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton" href="#" onclick="return false;" role="button" aria-haspopup="true" aria-expanded="false">Contact</a>
+                        <div class="dropdown-menu dropdown-info" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="contact.html"><i class="fa fa-address-book"></i>Contact Us</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" rel="tooltip" title="Send us an Email" data-placement="bottom" href="mailto:info@keruxmagnum.com" target="_blank" alt="Email">
@@ -70,8 +70,10 @@
                             <a class="dropdown-item" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/keruxmagnum" target="_blank" alt="Instagram">
                                 <p class=""><i class="fa fa-instagram"></i> Instagram</p>
                             </a>
-                        </ul>
-                    </div>
+                        </div>
+                    </li>
+
+
                     <!-- <li class="nav-item">
                             <a href="contact.html" class="nav-link">Contact</a>
                         </li>
@@ -110,6 +112,8 @@
         </div>
     </nav>
     <!-- End Navbar -->
+
+    <!-- Page Header -->
     <div class="other-page-header page-header-xs" data-parallax="true" style="background-color: #1e2330;">
         <div class="filter"></div>
         <div class="container">
@@ -120,6 +124,7 @@
                 <br />
             </div>
         </div>
+        <div class="moving-clouds" style="background-image: url('assets/img/moving-bg.png'); "></div>
     </div>
 
     <!-- Body -->
@@ -146,7 +151,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="row text-center">
                 <div class="col-sm-10 col-md-6 ml-auto mr-auto">
                     <img class="image-size" src="assets/img/our-mission.png" alt="Our Business">
@@ -378,6 +382,7 @@
     <script src="assets/js/paper-kit.js?v=2.2.0" type="text/javascript"></script>
     <!--  Google Maps Plugin    -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+    <script type="text/javascript" src="assets/js/keruxmagnum.js"></script>
 </body>
 
 </html>
